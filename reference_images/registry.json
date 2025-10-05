@@ -1,0 +1,50 @@
+{
+  "corner_of_a_cozy_coffee_shop_morning_unknown_bright": {
+    "image_path": "storyboard_output\\images\\scene_1_1759619083.png",
+    "metadata": {
+      "scene_id": "scene_1",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619083.8991218"
+  },
+  "same_table_morning_unknown_bright": {
+    "image_path": "storyboard_output\\images\\scene_2_1759619084.png",
+    "metadata": {
+      "scene_id": "scene_2",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619084.9450262"
+  },
+  "unknown_afternoon_warm_soft": {
+    "image_path": "storyboard_output\\images\\scene_3_1759619085.png",
+    "metadata": {
+      "scene_id": "scene_3",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619085.9959364"
+  },
+  "unknown_evening_unknown_dim": {
+    "image_path": "storyboard_output\\images\\scene_4_1759619087.png",
+    "metadata": {
+      "scene_id": "scene_4",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619087.042159"
+  },
+  "same_corner_table_evening_warm_artificial": {
+    "image_path": "storyboard_output\\images\\scene_5_1759619088.png",
+    "metadata": {
+      "scene_id": "scene_5",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619088.0949566"
+  },
+  "unknown_morning_unknown_bright": {
+    "image_path": "storyboard_output\\images\\scene_6_1759619089.png",
+    "metadata": {
+      "scene_id": "scene_6",
+      "generation_type": "initial"
+    },
+    "created_at": "1759619089.1432302"
+  }
+}

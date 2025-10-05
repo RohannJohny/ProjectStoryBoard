@@ -1,0 +1,305 @@
+{
+  "characters": [
+    {
+      "name": "Alex",
+      "aliases": [],
+      "traits": [
+        {
+          "trait": "tall",
+          "confidence": 0.8,
+          "context": "Scene 1: The Coffee Shop - Morning\n\nAlex, a tall young man with dark hair and glasses, sits at a small table in the corner of a cozy coffee shop"
+        },
+        {
+          "trait": "glasses",
+          "confidence": 0.8,
+          "context": "Scene 1: The Coffee Shop - Morning\n\nAlex, a tall young man with dark hair and glasses, sits at a small table in the corner of a cozy coffee shop"
+        },
+        {
+          "trait": "ring",
+          "confidence": 0.8,
+          "context": "Scene 2: The Coffee Shop - Morning (Later)\n\nAlex is still at the same table, still wearing his blue hoodie and glasses"
+        }
+      ],
+      "visual_description": "Physical: tall, glasses; Accessories: ring",
+      "recurring_elements": [
+        "glasses",
+        "ring"
+      ],
+      "importance_score": 10.0,
+      "first_appearance": 1
+    },
+    {
+      "name": "His",
+      "aliases": [],
+      "traits": [
+        {
+          "trait": "backpack",
+          "confidence": 0.8,
+          "context": "A steaming cup of coffee sits next to his laptop, and his backpack rests on the floor beside his chair"
+        },
+        {
+          "trait": "glasses",
+          "confidence": 0.8,
+          "context": "Scene 2: The Coffee Shop - Morning (Later)\n\nAlex is still at the same table, still wearing his blue hoodie and glasses"
+        },
+        {
+          "trait": "ring",
+          "confidence": 0.8,
+          "context": "Scene 2: The Coffee Shop - Morning (Later)\n\nAlex is still at the same table, still wearing his blue hoodie and glasses"
+        },
+        {
+          "trait": "thin",
+          "confidence": 0.5,
+          "context": "His laptop is open, coffee cup nearby, and backpack on the floor - everything exactly as it was before, showing the consistency of his routine and the coffee shop's unchanging environment"
+        }
+      ],
+      "visual_description": "Physical: glasses, thin; Accessories: backpack, ring",
+      "recurring_elements": [
+        "glasses",
+        "ring"
+      ],
+      "importance_score": 10.0,
+      "first_appearance": 1
+    }
+  ],
+  "scene_contexts": [
+    {
+      "scene_number": 1,
+      "location": "Corner Of A Cozy Coffee Shop",
+      "time_of_day": "Morning",
+      "weather": "Unknown",
+      "mood": "Peaceful",
+      "lighting": "Bright",
+      "props": [
+        "laptop open in front of him",
+        "atmosphere",
+        "steaming cup of coffee"
+      ],
+      "characters_present": [],
+      "background_elements": []
+    },
+    {
+      "scene_number": 2,
+      "location": "Same Table",
+      "time_of_day": "Morning",
+      "weather": "Unknown",
+      "mood": "Tense",
+      "lighting": "Bright",
+      "props": [],
+      "characters_present": [],
+      "background_elements": []
+    },
+    {
+      "scene_number": 3,
+      "location": "Unknown",
+      "time_of_day": "Afternoon",
+      "weather": "Warm",
+      "mood": "Neutral",
+      "lighting": "Soft",
+      "props": [
+        "laptop"
+      ],
+      "characters_present": [],
+      "background_elements": []
+    },
+    {
+      "scene_number": 4,
+      "location": "Unknown",
+      "time_of_day": "Evening",
+      "weather": "Unknown",
+      "mood": "Neutral",
+      "lighting": "Dim",
+      "props": [
+        "coffee shop"
+      ],
+      "characters_present": [],
+      "background_elements": []
+    },
+    {
+      "scene_number": 5,
+      "location": "Same Corner Table",
+      "time_of_day": "Evening",
+      "weather": "Warm",
+      "mood": "Mysterious",
+      "lighting": "Artificial",
+      "props": [
+        "atmosphere"
+      ],
+      "characters_present": [],
+      "background_elements": []
+    },
+    {
+      "scene_number": 6,
+      "location": "Unknown",
+      "time_of_day": "Morning",
+      "weather": "Unknown",
+      "mood": "Peaceful",
+      "lighting": "Bright",
+      "props": [],
+      "characters_present": [],
+      "background_elements": []
+    }
+  ],
+  "recurring_elements": [
+    {
+      "element_type": "prop",
+      "name": "atmosphere",
+      "description": "Recurring prop: atmosphere",
+      "recurring": true,
+      "scene_numbers": [
+        1,
+        5
+      ]
+    }
+  ],
+  "reference_templates": {
+    "scene_1": "reference_Corner Of A Cozy Coffee Shop_Morning_Unknown_Bright.png",
+    "scene_2": "reference_Same Table_Morning_Unknown_Bright.png",
+    "scene_3": "reference_Unknown_Afternoon_Warm_Soft.png",
+    "scene_4": "reference_Unknown_Evening_Unknown_Dim.png",
+    "scene_5": "reference_Same Corner Table_Evening_Warm_Artificial.png",
+    "scene_6": "reference_Unknown_Morning_Unknown_Bright.png"
+  },
+  "generation_instructions": {
+    "scene_1": {
+      "scene_context": {
+        "location": "Corner Of A Cozy Coffee Shop",
+        "time_of_day": "Morning",
+        "weather": "Unknown",
+        "mood": "Peaceful",
+        "lighting": "Bright"
+      },
+      "characters": {},
+      "props": [
+        "laptop open in front of him",
+        "atmosphere",
+        "steaming cup of coffee"
+      ],
+      "background_elements": [],
+      "recurring_elements": [
+        "atmosphere"
+      ],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    },
+    "scene_2": {
+      "scene_context": {
+        "location": "Same Table",
+        "time_of_day": "Morning",
+        "weather": "Unknown",
+        "mood": "Tense",
+        "lighting": "Bright"
+      },
+      "characters": {},
+      "props": [],
+      "background_elements": [],
+      "recurring_elements": [],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    },
+    "scene_3": {
+      "scene_context": {
+        "location": "Unknown",
+        "time_of_day": "Afternoon",
+        "weather": "Warm",
+        "mood": "Neutral",
+        "lighting": "Soft"
+      },
+      "characters": {},
+      "props": [
+        "laptop"
+      ],
+      "background_elements": [],
+      "recurring_elements": [],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    },
+    "scene_4": {
+      "scene_context": {
+        "location": "Unknown",
+        "time_of_day": "Evening",
+        "weather": "Unknown",
+        "mood": "Neutral",
+        "lighting": "Dim"
+      },
+      "characters": {},
+      "props": [
+        "coffee shop"
+      ],
+      "background_elements": [],
+      "recurring_elements": [],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    },
+    "scene_5": {
+      "scene_context": {
+        "location": "Same Corner Table",
+        "time_of_day": "Evening",
+        "weather": "Warm",
+        "mood": "Mysterious",
+        "lighting": "Artificial"
+      },
+      "characters": {},
+      "props": [
+        "atmosphere"
+      ],
+      "background_elements": [],
+      "recurring_elements": [
+        "atmosphere"
+      ],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    },
+    "scene_6": {
+      "scene_context": {
+        "location": "Unknown",
+        "time_of_day": "Morning",
+        "weather": "Unknown",
+        "mood": "Peaceful",
+        "lighting": "Bright"
+      },
+      "characters": {},
+      "props": [],
+      "background_elements": [],
+      "recurring_elements": [],
+      "generation_type": "initial",
+      "consistency_requirements": {
+        "maintain_character_appearance": true,
+        "maintain_scene_background": true,
+        "maintain_lighting_mood": true,
+        "maintain_prop_consistency": true
+      }
+    }
+  },
+  "metadata": {
+    "total_characters": 2,
+    "total_scenes": 6,
+    "total_recurring_elements": 1,
+    "analysis_version": "1.0"
+  }
+}

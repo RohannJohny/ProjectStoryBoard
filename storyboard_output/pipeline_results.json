@@ -1,0 +1,205 @@
+{
+  "generation_results": [
+    {
+      "scene_id": "scene_1",
+      "image_path": "storyboard_output\\images\\scene_1_1759619083.png",
+      "generation_time": 1.081223964691162,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "Corner Of A Cozy Coffee Shop, during Morning, with Bright lighting, creating a Peaceful atmosphere, with laptop open in front of him, atmosphere, steaming cup of coffee, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "location_Corner Of A Cozy Coffee Shop",
+          "time_Morning"
+        ]
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "image_path": "storyboard_output\\images\\scene_2_1759619084.png",
+      "generation_time": 1.0438411235809326,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "Same Table, during Morning, with Bright lighting, creating a Tense atmosphere, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "location_Same Table",
+          "time_Morning"
+        ]
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "image_path": "storyboard_output\\images\\scene_3_1759619085.png",
+      "generation_time": 1.048980474472046,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "during Afternoon, with Warm weather, with Soft lighting, with laptop, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "time_Afternoon"
+        ]
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "image_path": "storyboard_output\\images\\scene_4_1759619087.png",
+      "generation_time": 1.0445928573608398,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "during Evening, with Dim lighting, with coffee shop, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "time_Evening"
+        ]
+      }
+    },
+    {
+      "scene_id": "scene_5",
+      "image_path": "storyboard_output\\images\\scene_5_1759619088.png",
+      "generation_time": 1.0506763458251953,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "Same Corner Table, during Evening, with Warm weather, with Artificial lighting, creating a Mysterious atmosphere, with atmosphere, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "location_Same Corner Table",
+          "time_Evening"
+        ]
+      }
+    },
+    {
+      "scene_id": "scene_6",
+      "image_path": "storyboard_output\\images\\scene_6_1759619089.png",
+      "generation_time": 1.045853853225708,
+      "success": true,
+      "error_message": null,
+      "metadata": {
+        "prompt": "during Morning, with Bright lighting, creating a Peaceful atmosphere, cinematic lighting, detailed character design, consistent art style, storyboard quality, professional illustration, clear character expressions, detailed backgrounds",
+        "negative_prompt": "blurry, low quality, inconsistent character design, inconsistent lighting, poor composition, text, watermark, signature, multiple characters in same pose, distorted proportions",
+        "generation_params": {
+          "width": 1024,
+          "height": 1024,
+          "num_inference_steps": 20,
+          "guidance_scale": 7.5,
+          "seed": null
+        },
+        "consistency_tags": [
+          "time_Morning"
+        ]
+      }
+    }
+  ],
+  "video_path": "storyboard_video.mp4",
+  "consistency_report": {
+    "character_consistency": {},
+    "scene_consistency": {
+      "Corner Of A Cozy Coffee Shop": [
+        "scene_1"
+      ],
+      "Same Table": [
+        "scene_2"
+      ],
+      "Same Corner Table": [
+        "scene_5"
+      ]
+    },
+    "overall_score": 1.0
+  },
+  "reference_images": {
+    "corner_of_a_cozy_coffee_shop_morning_unknown_bright": {
+      "image_path": "storyboard_output\\images\\scene_1_1759619083.png",
+      "metadata": {
+        "scene_id": "scene_1",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619083.8991218"
+    },
+    "same_table_morning_unknown_bright": {
+      "image_path": "storyboard_output\\images\\scene_2_1759619084.png",
+      "metadata": {
+        "scene_id": "scene_2",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619084.9450262"
+    },
+    "unknown_afternoon_warm_soft": {
+      "image_path": "storyboard_output\\images\\scene_3_1759619085.png",
+      "metadata": {
+        "scene_id": "scene_3",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619085.9959364"
+    },
+    "unknown_evening_unknown_dim": {
+      "image_path": "storyboard_output\\images\\scene_4_1759619087.png",
+      "metadata": {
+        "scene_id": "scene_4",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619087.042159"
+    },
+    "same_corner_table_evening_warm_artificial": {
+      "image_path": "storyboard_output\\images\\scene_5_1759619088.png",
+      "metadata": {
+        "scene_id": "scene_5",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619088.0949566"
+    },
+    "unknown_morning_unknown_bright": {
+      "image_path": "storyboard_output\\images\\scene_6_1759619089.png",
+      "metadata": {
+        "scene_id": "scene_6",
+        "generation_type": "initial"
+      },
+      "created_at": "1759619089.1432302"
+    }
+  },
+  "pipeline_metadata": {
+    "total_scenes": 6,
+    "successful_generations": 6,
+    "failed_generations": 0,
+    "total_generation_time": 6.315168619155884
+  }
+}

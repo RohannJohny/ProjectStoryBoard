@@ -1,0 +1,122 @@
+{
+  "storyboard_config": {
+    "version": "1.0",
+    "description": "Configuration for StoryBoard Frame-Level Consistency System",
+    
+    "character_analysis": {
+      "min_mentions": 3,
+      "confidence_threshold": 0.3,
+      "trait_categories": {
+        "physical": [
+          "tall", "short", "thin", "fat", "muscular", "slim", "athletic",
+          "blonde", "brunette", "redhead", "bald", "curly hair", "straight hair",
+          "blue eyes", "brown eyes", "green eyes", "glasses", "beard", "mustache"
+        ],
+        "personality": [
+          "brave", "cowardly", "smart", "dumb", "funny", "serious", "kind",
+          "mean", "angry", "happy", "sad", "confident", "shy", "outgoing",
+          "quiet", "loud", "patient", "impatient", "careful", "reckless"
+        ],
+        "clothing": [
+          "suit", "dress", "jeans", "shirt", "hat", "cap", "jacket",
+          "coat", "shoes", "boots", "uniform", "casual", "formal"
+        ],
+        "accessories": [
+          "glasses", "watch", "necklace", "ring", "bag", "backpack",
+          "phone", "camera", "weapon", "tool", "book"
+        ]
+      }
+    },
+    
+    "scene_analysis": {
+      "location_patterns": [
+        "house", "apartment", "office", "school", "hospital", "restaurant",
+        "park", "street", "car", "bus", "train", "airport", "beach",
+        "forest", "mountain", "city", "countryside", "kitchen", "bedroom",
+        "living room", "garden", "garage", "basement", "attic"
+      ],
+      "time_indicators": [
+        "morning", "afternoon", "evening", "night", "dawn", "dusk",
+        "sunrise", "sunset", "midday", "midnight", "early", "late"
+      ],
+      "weather_types": [
+        "sunny", "cloudy", "rainy", "stormy", "snowy", "foggy",
+        "windy", "hot", "cold", "warm", "cool"
+      ],
+      "mood_indicators": [
+        "tense", "relaxed", "exciting", "scary", "romantic", "sad",
+        "happy", "mysterious", "dramatic", "peaceful", "chaotic"
+      ],
+      "lighting_types": [
+        "bright", "dim", "dark", "shadowy", "sunlit", "moonlit",
+        "artificial", "natural", "harsh", "soft", "dramatic"
+      ]
+    },
+    
+    "ai_generation": {
+      "default_params": {
+        "width": 1024,
+        "height": 1024,
+        "num_inference_steps": 20,
+        "guidance_scale": 7.5,
+        "seed": null
+      },
+      "style_keywords": [
+        "cinematic lighting",
+        "detailed character design",
+        "consistent art style",
+        "storyboard quality",
+        "professional illustration",
+        "clear character expressions",
+        "detailed backgrounds"
+      ],
+      "negative_prompt": [
+        "blurry",
+        "low quality",
+        "inconsistent character design",
+        "inconsistent lighting",
+        "poor composition",
+        "text",
+        "watermark",
+        "signature",
+        "multiple characters in same pose",
+        "distorted proportions"
+      ]
+    },
+    
+    "consistency_rules": {
+      "character_consistency": {
+        "maintain_appearance": true,
+        "maintain_accessories": true,
+        "maintain_clothing": true,
+        "consistency_threshold": 0.8
+      },
+      "scene_consistency": {
+        "maintain_background": true,
+        "maintain_lighting": true,
+        "maintain_props": true,
+        "maintain_mood": true
+      },
+      "reference_generation": {
+        "use_reference_for_recurring_scenes": true,
+        "reference_strength": 0.7,
+        "max_reference_age_days": 30
+      }
+    },
+    
+    "output_settings": {
+      "image_format": "png",
+      "image_quality": 95,
+      "video_format": "mp4",
+      "video_fps": 24,
+      "frame_duration": 2.0
+    },
+    
+    "paths": {
+      "reference_images": "reference_images",
+      "generated_images": "generated_images",
+      "output_videos": "output_videos",
+      "analysis_reports": "analysis_reports"
+    }
+  }
+}

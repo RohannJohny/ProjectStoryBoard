@@ -1,0 +1,9 @@
+{
+  "living_room_morning_sunny_bright": {
+    "image_path": "test_image.png",
+    "metadata": {
+      "test": "data"
+    },
+    "created_at": "1759619177.7828555"
+  }
+}
