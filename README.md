@@ -2,6 +2,18 @@
 
 A comprehensive system for maintaining visual consistency across storyboard frames, including character consistency, scene consistency, and reference-based image generation.
 
+## Project Status
+
+This project was developed during the CineHack Hackathon as a proof-of-concept prototype.
+
+The goal was to build an AI-assisted system capable of transforming scripts into storyboard-driven videos while maintaining character and scene consistency.
+
+Development was partially completed, and the project successfully demonstrated the core architecture involving script analysis, storyboard processing, computer vision, and AI-based video generation concepts.
+
+
+...
+
+
 ## 🎯 Features
 
 ### Frame-Level Consistency
