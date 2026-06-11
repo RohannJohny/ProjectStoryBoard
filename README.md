@@ -8,7 +8,7 @@ This project was developed during the CineHack Hackathon as a proof-of-concept p
 
 The goal was to build an AI-assisted system capable of transforming scripts into storyboard-driven videos while maintaining character and scene consistency.
 
-Development was partially completed, and the project successfully demonstrated the core architecture involving script analysis, storyboard processing, computer vision, and AI-based video generation concepts.
+Development reached the prototype stage and successfully demonstrated the core architecture involving script analysis, storyboard processing, computer vision, and AI-assisted video generation concepts. Further development was limited by technical constraints and available hardware resources during the hackathon.
 
 
 ...
